@@ -6,7 +6,7 @@ Mobile farmer app for monitoring SHCCS coolers, alerts, and technician help requ
 
 - **React Native** (Expo)
 - **NativeWind** (Tailwind CSS for React Native)
-- **Java Spring Boot** API in `../backend`
+- **Java Spring Boot** API in `../backend` (also hosted on Render)
 - Fonts: **Fraunces** + **Sora**
 
 ## Languages
@@ -22,42 +22,34 @@ Override anytime on Login or Profile (or choose System default).
 - Push permission + Expo push token registered to Java API (`/device-tokens`)
 - Local push when unread alert count increases (8s poll on home, 5s on unit detail)
 
-## Backend on LAN
+## Backend
 
-API binds to `0.0.0.0:8080` and is reachable at:
+Default API (baked into release APK):
 
-`http://192.168.0.115:8080`
+`https://harvest-hold-rwanda.onrender.com`
 
-```bash
-cd backend && ./mvnw spring-boot:run
-```
-
-The APK is built against that LAN URL (see `.env` and `src/api/client.js`).
+Override with `EXPO_PUBLIC_API_URL` in `.env` (see `.env.example`).
 
 ## APK
 
-Release APK (LAN API baked in):
+Release APK:
 
-`farmer-app/dist/HarvestHold-Farmer-192.168.0.115.apk`
+`farmer-app/dist/HarvestHold-Farmer.apk`
 
 Rebuild:
 
 ```bash
 export ANDROID_HOME=$HOME/Android/Sdk
 export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
-export EXPO_PUBLIC_API_URL=http://192.168.0.115:8080
+export EXPO_PUBLIC_API_URL=https://harvest-hold-rwanda.onrender.com
 cd farmer-app/android && ./gradlew assembleRelease
 ```
 
-Phone must be on the same Wi‑Fi as this machine.
+Phone needs internet access (API is on Render). First request after idle may be slow while Render wakes up.
 
 ## Run (dev)
 
 ```bash
-# Terminal 1 — Java API
-cd backend && ./mvnw spring-boot:run
-
-# Terminal 2 — Farmer app
 cd farmer-app && npm start
 ```
 

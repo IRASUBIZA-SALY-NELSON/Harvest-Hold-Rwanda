@@ -1,14 +1,11 @@
-/** LAN backend for phone / APK builds. Change if your Wi‑Fi IP changes. */
-export const LAN_API_HOST = '192.168.0.115'
-export const LAN_API_PORT = 8080
-export const LAN_API_URL = `http://${LAN_API_HOST}:${LAN_API_PORT}`
+/** Production API (Render). Override with EXPO_PUBLIC_API_URL at build time. */
+export const DEFAULT_API_URL = 'https://harvest-hold-rwanda.onrender.com'
 
 /**
  * Prefer EXPO_PUBLIC_API_URL when set at build/start time.
- * Otherwise always use the LAN IP (required for real devices / APK).
+ * Otherwise use the hosted Render API.
  */
-
-export const API_URL = process.env.EXPO_PUBLIC_API_URL || LAN_API_URL
+export const API_URL = process.env.EXPO_PUBLIC_API_URL || DEFAULT_API_URL
 
 let authToken = null
 

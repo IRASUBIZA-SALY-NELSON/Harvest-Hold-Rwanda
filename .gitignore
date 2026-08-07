@@ -12,8 +12,6 @@ farmer-app/ios/
 *.aab
 *.ipa
 # Env & secrets
-.env
-.env.*
 !.env.example
 *.pem
 credentials.json
@@ -36,3 +34,4 @@ coverage/
 hs_err_pid*
 # Large media (keep docs optional — exclude heavy video from repo)
 hhrw-video-v1.mp4
+config.bat
