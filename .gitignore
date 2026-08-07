@@ -1,0 +1,38 @@
+# Dependencies
+**/node_modules/
+# Builds
+**/dist/
+**/build/
+**/target/
+.expo/
+.expo-shared/
+farmer-app/android/
+farmer-app/ios/
+*.apk
+*.aab
+*.ipa
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.iml
+.cursor/
+# Logs & caches
+*.log
+npm-debug.log*
+.cache/
+.turbo/
+coverage/
+.vite/
+# Java
+*.class
+hs_err_pid*
+# Large media (keep docs optional — exclude heavy video from repo)
+hhrw-video-v1.mp4

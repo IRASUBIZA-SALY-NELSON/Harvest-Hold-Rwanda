@@ -1,0 +1,117 @@
+{
+  "common": {
+    "appName": "Harvest Hold",
+    "farmer": "Agriculteur",
+    "loading": "Chargement…",
+    "retry": "Réessayer",
+    "back": "← Retour",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "error": "Une erreur est survenue",
+    "connected": "Connecté au serveur",
+    "offlineApi": "Impossible d’atteindre le serveur. Vérifiez que l’API Java tourne."
+  },
+  "tabs": {
+    "home": "Accueil",
+    "alerts": "Alertes",
+    "help": "Aide",
+    "profile": "Profil"
+  },
+  "login": {
+    "tagline": "Surveillez votre refroidisseur, recevez des alertes et demandez de l’aide.",
+    "phone": "Téléphone",
+    "pin": "Code PIN",
+    "signIn": "Se connecter",
+    "demoHint": "Démo : +250 788 123 456 · PIN 1234",
+    "success": "Bon retour",
+    "failed": "Connexion impossible",
+    "language": "Langue",
+    "systemDefault": "Langue du système",
+    "checkServer": "Tester la connexion serveur"
+  },
+  "home": {
+    "greeting": "Bonjour",
+    "myCoolers": "Mes refroidisseurs",
+    "unreadAlerts": "Alertes non lues",
+    "needAttention": "À surveiller",
+    "yourUnits": "Vos unités",
+    "requestHelp": "Demander de l’aide",
+    "loadError": "Impossible de charger les unités",
+    "loadHint": "Démarrez l’API Java sur le port 8080, puis actualisez.",
+    "synced": "sync {{time}}"
+  },
+  "unit": {
+    "tempTrend": "Tendance de température",
+    "target": "Cible {{min}}–{{max}}°C · sync {{time}}",
+    "temperature": "Température",
+    "humidity": "Humidité",
+    "ethylene": "Éthylène",
+    "shelfLife": "Durée de conservation",
+    "days": "jours",
+    "battery": "Batterie",
+    "water": "Eau",
+    "storage": "Stockage",
+    "powerSolar": "Énergie : solaire + batterie · OLED hors réseau",
+    "powerBattery": "Énergie : batterie · OLED hors réseau",
+    "requestTech": "Demander un technicien",
+    "cratesAt": "{{crop}} · {{crates}} caisses à {{location}}"
+  },
+  "alerts": {
+    "title": "Alertes",
+    "markAll": "Tout marquer lu",
+    "tapRead": "Appuyer pour marquer lu",
+    "empty": "Aucune alerte",
+    "marked": "Alerte marquée comme lue",
+    "allMarked": "Toutes les alertes marquées lues",
+    "newPushTitle": "Nouvelle alerte refroidisseur",
+    "newPushBody": "Vous avez {{count}} alerte(s) non lue(s)."
+  },
+  "help": {
+    "title": "Demander de l’aide",
+    "subtitle": "Envoyez un ticket de maintenance à votre technicien.",
+    "cooler": "Refroidisseur",
+    "topic": "Sujet",
+    "details": "Détails",
+    "placeholder": "Que voyez-vous sur l’OLED ou sur les produits ?",
+    "send": "Envoyer la demande",
+    "sent": "Demande envoyée. Un technicien vous contactera.",
+    "needDetails": "Veuillez décrire le problème",
+    "yourTickets": "Vos tickets",
+    "topics": {
+      "cooling": "Refroidissement insuffisant",
+      "fan": "Ventilateur ou pompe en panne",
+      "water": "Remplissage eau / charbon",
+      "sensor": "Problème capteur ou OLED",
+      "solar": "Problème solaire / batterie",
+      "other": "Autre"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "cooperative": "Coopérative",
+    "district": "District",
+    "village": "Village",
+    "role": "Rôle",
+    "roleFarmer": "Agriculteur",
+    "apiEndpoint": "Point d’API",
+    "language": "Langue",
+    "notifications": "Notifications push",
+    "notificationsOn": "Activées",
+    "notificationsOff": "Désactivées / refusées",
+    "enablePush": "Activer les alertes push",
+    "signOut": "Se déconnecter",
+    "signedOut": "Déconnecté",
+    "langChanged": "Langue mise à jour"
+  },
+  "status": {
+    "cooling": "Refroidissement",
+    "alert": "Alerte",
+    "offline": "Hors ligne",
+    "high": "Élevé",
+    "medium": "Moyen",
+    "low": "Faible",
+    "Open": "Ouvert",
+    "Rising": "En hausse",
+    "Low": "Faible"
+  }
+}

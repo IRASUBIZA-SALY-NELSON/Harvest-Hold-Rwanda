@@ -1,0 +1,117 @@
+{
+  "common": {
+    "appName": "Harvest Hold",
+    "farmer": "Umuhinzi",
+    "loading": "Birimo gutunganywa…",
+    "retry": "Ongera ugerageze",
+    "back": "← Subira inyuma",
+    "save": "Bika",
+    "cancel": "Hagarika",
+    "error": "Habaye ikosa",
+    "connected": "Byahuzengeye na seriveri",
+    "offlineApi": "Ntibishoboka kugera kuri seriveri. Reba niba API ya Java ikora."
+  },
+  "tabs": {
+    "home": "Ahabanza",
+    "alerts": "Imenyesha",
+    "help": "Ubufasha",
+    "profile": "Umwirondoro"
+  },
+  "login": {
+    "tagline": "Kurikirana icyuma gikonjesha, akamenyesha, no gusaba ubufasha bw’umukozi.",
+    "phone": "Telefone",
+    "pin": "Kode (PIN)",
+    "signIn": "Injira",
+    "demoHint": "Gerageza: +250 788 123 456 · PIN 1234",
+    "success": "Murakaza neza",
+    "failed": "Kwinjira ntibyakunze",
+    "language": "Ururimi",
+    "systemDefault": "Ururimi rw’urusoboye",
+    "checkServer": "Gerageza seriveri"
+  },
+  "home": {
+    "greeting": "Mwaramutse",
+    "myCoolers": "Ibyuma byanjye",
+    "unreadAlerts": "Imenyesha nshya",
+    "needAttention": "Bikeneye kwitabwaho",
+    "yourUnits": "Ibyuma byawe",
+    "requestHelp": "Saba ubufasha",
+    "loadError": "Ntibishoboka gufata ibyuma",
+    "loadHint": "Tangiza API ya Java kuri poriti 8080, hanyuma kuzura.",
+    "synced": "byahuzengeye {{time}}"
+  },
+  "unit": {
+    "tempTrend": "Imiterere y’ubushyuhe",
+    "target": "Intego {{min}}–{{max}}°C · byahuzengeye {{time}}",
+    "temperature": "Ubushyuhe",
+    "humidity": "Ubuhehere",
+    "ethylene": "Ethylene",
+    "shelfLife": "Igihe cyo kubika",
+    "days": "iminsi",
+    "battery": "Batiri",
+    "water": "Amazi",
+    "storage": "Ububiko",
+    "powerSolar": "Ingufu: Izuba + batiri · OLED ikora nta murongo",
+    "powerBattery": "Ingufu: Batiri · OLED ikora nta murongo",
+    "requestTech": "Saba umukozi w’ubuvuzi",
+    "cratesAt": "{{crop}} · ibitebo {{crates}} i {{location}}"
+  },
+  "alerts": {
+    "title": "Imenyesha",
+    "markAll": "Soma byose",
+    "tapRead": "Kanda kugira ngo usome",
+    "empty": "Nta menyesha ahari",
+    "marked": "Imenyesha ryasomwe",
+    "allMarked": "Imenyesha ryose ryasomwe",
+    "newPushTitle": "Imenyesha rishya ku cyuma",
+    "newPushBody": "Ufite imenyesha {{count}} itarasomwa."
+  },
+  "help": {
+    "title": "Saba ubufasha",
+    "subtitle": "Ohereza ticket y’ubuvuzi ku mukozi wagenwe.",
+    "cooler": "Icyuma",
+    "topic": "Ingingo",
+    "details": "Ibisobanuro",
+    "placeholder": "Ni iki ubona ku OLED cyangwa ku bihingwa?",
+    "send": "Ohereza icyifuzo",
+    "sent": "Icyifuzo cyoherejwe. Umukozi azakukurikira.",
+    "needDetails": "Nyamuneka sobanura ikibazo",
+    "yourTickets": "Tickets zawe",
+    "topics": {
+      "cooling": "Icyuma ntigikonjesha bihagije",
+      "fan": "Umuyaga cyangwa pompei ntikora",
+      "water": "Ubuyobozi bw’amazi / amakawa",
+      "sensor": "Ikibazo cya sensor cyangwa OLED",
+      "solar": "Ikibazo cy’izuba / batiri",
+      "other": "Ikindi"
+    }
+  },
+  "profile": {
+    "title": "Umwirondoro",
+    "cooperative": "Koperative",
+    "district": "Akarere",
+    "village": "Umudugudu",
+    "role": "Inshingano",
+    "roleFarmer": "Umuhinzi",
+    "apiEndpoint": "Aderesi ya API",
+    "language": "Ururimi",
+    "notifications": "Imenyesha rya push",
+    "notificationsOn": "Byemewe",
+    "notificationsOff": "Bihagaritswe / byanze",
+    "enablePush": "Emera imenyesha",
+    "signOut": "Sohoka",
+    "signedOut": "Wasohotse",
+    "langChanged": "Ururimi rwahinduwe"
+  },
+  "status": {
+    "cooling": "Gikonjesha",
+    "alert": "Imenyesha",
+    "offline": "Nta murongo",
+    "high": "Hejuru",
+    "medium": "Hagati",
+    "low": "Hasi",
+    "Open": "Ifunguye",
+    "Rising": "Birazamuka",
+    "Low": "Hasi"
+  }
+}

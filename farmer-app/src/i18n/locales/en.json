@@ -1,0 +1,117 @@
+{
+  "common": {
+    "appName": "Harvest Hold",
+    "farmer": "Farmer",
+    "loading": "Loading…",
+    "retry": "Retry",
+    "back": "← Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "error": "Something went wrong",
+    "connected": "Connected to server",
+    "offlineApi": "Cannot reach the server. Check that the Java API is running."
+  },
+  "tabs": {
+    "home": "Home",
+    "alerts": "Alerts",
+    "help": "Help",
+    "profile": "Profile"
+  },
+  "login": {
+    "tagline": "Monitor your cooler, get alerts, and request technician help.",
+    "phone": "Phone",
+    "pin": "PIN",
+    "signIn": "Sign in",
+    "demoHint": "Demo: +250 788 123 456 · PIN 1234",
+    "success": "Welcome back",
+    "failed": "Could not sign in",
+    "language": "Language",
+    "systemDefault": "System default",
+    "checkServer": "Test server connection"
+  },
+  "home": {
+    "greeting": "Good day",
+    "myCoolers": "My coolers",
+    "unreadAlerts": "Unread alerts",
+    "needAttention": "Need attention",
+    "yourUnits": "Your units",
+    "requestHelp": "Request help",
+    "loadError": "Could not load units",
+    "loadHint": "Start the Java API on port 8080, then pull to refresh.",
+    "synced": "synced {{time}}"
+  },
+  "unit": {
+    "tempTrend": "Temperature trend",
+    "target": "Target {{min}}–{{max}}°C · synced {{time}}",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "ethylene": "Ethylene",
+    "shelfLife": "Shelf life",
+    "days": "days",
+    "battery": "Battery",
+    "water": "Water",
+    "storage": "Storage",
+    "powerSolar": "Power: Solar + battery · Offline-ready OLED on device",
+    "powerBattery": "Power: Battery · Offline-ready OLED on device",
+    "requestTech": "Request technician help",
+    "cratesAt": "{{crop}} · {{crates}} crates at {{location}}"
+  },
+  "alerts": {
+    "title": "Alerts",
+    "markAll": "Mark all read",
+    "tapRead": "Tap to mark read",
+    "empty": "No alerts yet",
+    "marked": "Alert marked as read",
+    "allMarked": "All alerts marked as read",
+    "newPushTitle": "New cooler alert",
+    "newPushBody": "You have {{count}} unread alert(s)."
+  },
+  "help": {
+    "title": "Request help",
+    "subtitle": "Send a maintenance ticket to your assigned field technician.",
+    "cooler": "Cooler",
+    "topic": "Topic",
+    "details": "Details",
+    "placeholder": "What are you seeing on the OLED or with the produce?",
+    "send": "Send help request",
+    "sent": "Help request sent. A field technician will follow up.",
+    "needDetails": "Please describe the issue",
+    "yourTickets": "Your tickets",
+    "topics": {
+      "cooling": "Cooler not cooling enough",
+      "fan": "Fan or pump not working",
+      "water": "Water / charcoal refill guidance",
+      "sensor": "Sensor or OLED display issue",
+      "solar": "Solar / battery problem",
+      "other": "Other"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "cooperative": "Cooperative",
+    "district": "District",
+    "village": "Village",
+    "role": "Role",
+    "roleFarmer": "Farmer",
+    "apiEndpoint": "API endpoint",
+    "language": "Language",
+    "notifications": "Push notifications",
+    "notificationsOn": "Enabled",
+    "notificationsOff": "Disabled / denied",
+    "enablePush": "Enable push alerts",
+    "signOut": "Sign out",
+    "signedOut": "Signed out",
+    "langChanged": "Language updated"
+  },
+  "status": {
+    "cooling": "Cooling",
+    "alert": "Alert",
+    "offline": "Offline",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "Open": "Open",
+    "Rising": "Rising",
+    "Low": "Low"
+  }
+}
