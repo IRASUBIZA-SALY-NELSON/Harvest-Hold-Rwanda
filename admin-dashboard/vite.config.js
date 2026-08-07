@@ -1,3 +1,4 @@
+// Deploy trigger: ensure VITE_API_URL points at the Render API
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'

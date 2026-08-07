@@ -22,3 +22,5 @@ Professional operations console for the SHCCS cooling fleet.
 - Support ticket queue (status updates sync with farmer help tickets)
 
 Data refreshes every ~4 seconds from the Spring Boot telemetry simulator.
+
+# Redeploy trigger — wire Vercel to https://harvest-hold-rwanda.onrender.com via VITE_API_URL
